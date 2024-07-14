@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receipe book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="receipe book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+           <!-- navbar -->
+      
+    <header>
+    <nav class="navbar navbar-expand-lg  px-2">
+        <div class="container-fluid">
+          <a class="navbar-brand  " href="#">Receipe Book</a>
+          <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0 text-center ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Cuisines
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Indian</a></li>
+                  <li><a class="dropdown-item" href="#">Chinese</a></li>
+                  <li><a class="dropdown-item" href="#">Thai</a></li>
+                  <li><a class="dropdown-item" href="#">Italian</a></li>
+                  <li><a class="dropdown-item" href="#">Mexican</a></li>
+                  <li><a class="dropdown-item" href="#">Korean</a></li>
+                  <li><a class="dropdown-item" href="#">American</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+            <!-- header-iamges  -->
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="banner5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="banner7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+      <!-- about -->
+
+      </header>
+     <section class="about my-5 mx-2">
+      <div class="container-fluid  ">
+        <p data-aos="fade-up"  data-aos-offset="200" class=" heading  text-center ">About us</p>
+        <hr class="w-25 m-auto" >
+        <div class="text-center text-area" data-aos="zoom-in"  data-aos-offset="500" >
+          <h2 >Welcome to Receipe book</h2>
+          <h4>Discover the Joy of Cooking</h4>
+          <p class="text-center fs-5 fw-normal lh-sm px-5">At Receipe Book , we believe that cooking is more than just a necessity; it's an art form that brings people together. Whether you're a seasoned chef or just starting out, our website is designed to inspire your culinary journey with a diverse range of recipes that cater to all tastes and skill levels.</p>
+          
+          <h2> Our Recipe Collections</h2>
+          <h4> Quick and Easy</h4>
+          <p class="text-center fs-5  fw-normal lh-sm px-5">Pressed for time? Our quick and easy recipes are perfect for busy weeknights when you need a delicious meal in a hurry. From 15-minute pasta dishes to simple stir-fries, we've got you covered.</p>
+          
+          <h2>Healthy and Nutritious</h2>
+          <p class="text-center fs-5 fw-normal lh-sm  px-5">Nourish your body with our collection of healthy recipes. Packed with fresh ingredients and wholesome goodness, these dishes are designed to keep you feeling your best without sacrificing flavor.</p>
+          
+          <h2>Global Flavors</h2>
+          <p class="text-center fs-5 fw-normal lh-sm px-5">Travel the world from your kitchen with our global flavors collection. Explore exotic cuisines and discover new favorites with recipes from Asia, Europe, the Americas, and beyond.</p>
+          
+          <h2>Comfort Food</h2>
+          <p class="text-center fs-5 fw-normal lh-sm  px-5">Indulge in the heartwarming dishes that bring back fond memories. Our comfort food recipes feature classics like mac and cheese and homemade pies that are perfect for any occasion.</p>
+          
+          <h2>Vegan and Vegetarian</h2>
+          <p class="text-center fs-5 fw-normal lh-sm  px-5">Whether you're a full-time vegan, vegetarian, or just looking to incorporate more plant-based meals into your diet, our vegan and vegetarian recipes offer a delicious variety of options that are sure to satisfy.</p>
+      </div>
+
+       <!-- menu  -->
+
+     </section> 
+     <hr class="w-auto mx-5">
+     <section class="menu-area">
+       <div class="container-fluid px-5 py-3">
+        <p class=" heading  text-center " data-aos="fade-up"  data-aos-offset="500">Cuisines</p>
+        <hr class="w-25 m-auto" >
+
+        <!-- Indian -->
+        
+        <h2 class="titles">Indian</h2> 
+        <div class="menu " data-aos="zoom-in-up"  data-aos-offset="500" >
+          <div class="card " style="width: 18rem;">
+            <img src="paneer tikka.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Paneer Tikka</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="nonveg biryani.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Non-veg Biryani</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Idli Sambar.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Idli Sambhar</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="uttapam (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Uttapam</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page " href="#">...more</a>
+        </div>
+
+        <!-- Chinese -->
+     
+        <h2 class="titles">Chinese</h2>
+        <div class="menu "     data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="soup.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold"> Vegetable Soup</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="momo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Momos</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="chilli paneer.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Chilli Paneer</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="chowmein (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Chowmein</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+        <!-- Thai -->
+
+        <h2 class="titles"> Thai</h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="massaman curry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Massaman Curry</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="green curry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Green Curry</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="tom yum goong.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Tom Yum Goong</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Pad Thai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Pad Thai</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+        <!-- Italian -->
+
+        <h2 class="titles" > Italian</h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="spaghetti carbonara.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Spaghetti Carbonara</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="pesto pasta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Pesto Pasta</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="margherita pizza.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Margherita Pizza</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="lasagna.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Lasagna</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+        <!-- mexican  -->
+
+        <h2 class="titles" >Mexican </h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="tacos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Tacos</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="mole.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Mole</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="salsas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Salsas</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Chile Relleno.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Chiles Rellenos</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+            <!-- korean  -->
+
+        <h2 class="titles">Korean</h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="Vegan Jjajang Tteokbokki.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Vegan Jjajang Tteokbokki</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Japchae.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Japchae</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Vegan Bibimbap.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Vegan Bibimbap</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="kimchi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Kimchi</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+          <!-- American -->
+
+        <h2 class="titles">American</h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="burger.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Burger</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="hot dog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Hot Dog</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="apple pie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Apple Pie</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="macaroni cheese.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Macaroni and Cheese</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <a class="next-page" href="#">...more</a>
+        </div>
+
+           <!-- French -->
+
+        <h2 class="titles"> French</h2>
+        <div class="menu" data-aos="zoom-in-up"  data-aos-offset="500">
+          <div class="card" style="width: 18rem;">
+            <img src="Coq au Vin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Coq au Vin</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Ratatouille.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Ratatouille</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="escargot.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Escargot</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Quiche Lorraine.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Quiche Lorraine</h5>
+              <p class="card-text">Savour the taste of tradition and creativity ,blended seamlesly in our diverse selection of mouthwatering delicacies.</p>
+              <a href="#" class="btn btn-primary">Receipe</a>
+            </div>
+          </div>
+        </div>
+        <a class="next-page" href="#">...more</a>
+       </div>
+     </section>
+
+       <!-- footer-section  -->
+
+       <p class=" heading  text-center " data-aos="fade-up"  data-aos-offset="500">Contact us</p>
+       <hr class="w-25 m-auto">
+     <footer>
+        <div class="container-fluid h-100 w-100 mt-3 "style=" background-color: rgb(11, 11, 58); border-radius: 10px" >
+          <div class="newsletter">
+            <h1 class="fs-2 fw-bold text-center py-4">Subscribe to our newsletter</h1>
+            <p class="fs-5 w-50 m-auto">Hello, We're thrilled to bring you the latest in culinary delights,tips,and news.Dive into this month's delicious content and discover new receipes and much more!</p>
+            <div class="input-group w-50 m-auto pt-5">
+              <input type="text" class="form-control rounded-3" placeholder="Enter your email address" >
+              <span class="input-group-btn px-4">
+                <button class="btn  " type="button">Subscribe</button>
+              </span>
+            </div>
+          </div>
+             <h2 class="logo  text-center pt-5 my-3">Receipe Book</h2>
+               <div class="social-icons text-center">
+              <a  href="#"> <i class="fa-brands fa-instagram mx-1"></i></a>
+              <a  href="#"><i class="fa-brands fa-facebook mx-1"></i></a>
+              <a  href="#"><i class="fa-brands fa-x-twitter mx-1"></i></a>
+              <a  href="#"><i class="fa-brands fa-google mx-1 "></i></a>
+              <a  href="#"><i class="fa-brands fa-pinterest mx-1"></i></a>
+                </div>
+                <div class="footer-section  text-center py-3">
+                  <p >
+                   Copyright&copy;2022;Designed by Riddhima Singh
+                  </p>
+                </div>
+        </div>
+     </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
